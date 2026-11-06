@@ -1,1 +1,0 @@
-# consulta_strings_potencia
