@@ -1,0 +1,6 @@
+{
+  "name": "Quantitativo Strings e/ou potência UFV",
+  "description": "Ferramenta interativa de consulta de quantidade de strings por UFV e Inversor com gerador de fórmulas Excel/Google Sheets.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
