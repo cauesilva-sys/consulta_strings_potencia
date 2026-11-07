@@ -6,8 +6,7 @@ import {
   Wifi, 
   BarChart3, 
   Search, 
-  Building2,
-  Download
+  Building2
 } from 'lucide-react';
 
 interface NavbarProps {
@@ -74,19 +73,6 @@ export const Navbar: React.FC<NavbarProps> = ({
                 Concessionárias Locais • Provedores de Internet • Mapeamento de Endereços
               </p>
             </div>
-          </div>
-
-          {/* Download Project Zip for Git & Vercel */}
-          <div className="flex items-center gap-2">
-            <a
-              href="/gdsun-gestao-usinas.zip"
-              download="gdsun-gestao-usinas.zip"
-              className="inline-flex items-center gap-1.5 px-3.5 py-2 bg-slate-900 hover:bg-slate-800 text-white font-bold text-xs rounded-xl shadow-xs transition-all hover:shadow cursor-pointer active:scale-95"
-              title="Baixar todo o código-fonte em .ZIP para subir no GitHub / Vercel"
-            >
-              <Download className="w-4 h-4 text-amber-400" />
-              <span>Baixar Código (.ZIP)</span>
-            </a>
           </div>
         </div>
 
